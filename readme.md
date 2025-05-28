@@ -1,4 +1,6 @@
-# BJT Characterization: Gummel Plot Analysis
+# BJT Characterization:
+
+## 1. Gummel Plot Analysis
 
 This repository contains Python scripts for generating Gummel plots to 
 characterize Bipolar Junction Transistors (BJTs) at different operating 
@@ -6,7 +8,7 @@ temperatures. The analysis focuses on the relationship between the
 base-emitter voltage ($V_{BE}$) and the resulting collector ($I_C$) and 
 base ($I_B$) currents, as well as the current gain ($\beta$).
 
-## Gummel Plot: Cryogenic vs. Room Temperature
+### Gummel Plot: Cryogenic vs. Room Temperature
 
 The plot below shows the simulated BJT performance at both room 
 temperature (e.g., 300K) and cryogenic temperature (e.g., 77K). The top 
@@ -29,7 +31,26 @@ correlating gain behavior with current levels.
 The plot is generated using a Python script. To reproduce the figure, run 
 the main script.
 
-### Dependencies
-* **Python 3.x**
-* **Matplotlib**
-* **NumPy**
+## 2. $I_C$ vs $V_{CE}$ sweep
+
+In this measurement, we will bias the base of BJT transistor by current 
+source $I_B$ then sweep $V_{CE}$. The plot will show the different between 
+the characteristic at room temperature $T = 300K$ and cryogenic temperature 
+$T = 77K$.
+
+### 2.1. $I_C$ vs $V_{CE}$ sweep with low base current in CR 
+![IcVce at low base current injection](plot/IcVce_sweep_low_Ib.png)
+
+In this plot, the base current bias ranges from $500nA$ to $2250nA$. It clearly
+show that at low base current density, the current $I_C$ wrt $V_{CE}$ behave
+stably and there is no clear offset of $V_{CE}$.
+
+### 2.1. $I_C$ vs $V_{CE}$ sweep with low base current in CR
+![IcVce at low base current injection](plot/IcVce_sweep_high_Ib.png)
+
+In this plot, the base current bias ranges from $1 \mu A$ to $8 \mu A$, It clearly  
+show that at high base current density, the current $I_C$ wrt $V_{CE}$ behave  
+very unstable and there show that it is hard to find the stable operation point 
+for $V_{CE}$
+
+ 
