@@ -45,9 +45,5 @@ In this plot, the base current bias ranges from $500nA$ to $2250nA$. It clearly
 show that at low base current density, the current $I_C$ wrt $V_{CE}$ behave
 stably and there is no clear offset of $V_{CE}$.
 
-### 2.1. $I_C$ vs $V_{CE}$ sweep with low high current in CR
-![IcVce at low base current injection](plot/IcVce_sweep_high_Ib.png)
-
-In this plot, the base current bias ranges from $1 \mu A$ to $8 \mu A$, It clearly show that at high base current density, the current $I_C$ wrt $V_{CE}$ behave very unstable and there show that it is hard to find the stable operation point for $V_{CE}$
 
  
