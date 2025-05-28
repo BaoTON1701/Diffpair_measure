@@ -38,12 +38,13 @@ source $I_B$ then sweep $V_{CE}$. The plot will show the different between
 the characteristic at room temperature $T = 300K$ and cryogenic temperature 
 $T = 77K$.
 
-### 2.1. $I_C$ vs $V_{CE}$ sweep with low base current in CR 
 ![IcVce at low base current injection](plot/IcVce_sweep_low_Ib.png)
 
-In this plot, the base current bias ranges from $500nA$ to $2250nA$. It clearly
-show that at low base current density, the current $I_C$ wrt $V_{CE}$ behave
-stably and there is no clear offset of $V_{CE}$.
+* **The plot at room temperature**: $I_B$ ranges from $1 \mu A$ to $12 \mu A$, step = $1 \mu A$
+* **The plot at room temperature**: $I_B$ ranges from $0.5 \mu A$ to $2.25 \mu A$ at the first 8 curves then $3 \mu A$ to $8 \mu A$ for the rest
+
+The plot clearly show that at low base current density, the current $I_C$ wrt $V_{CE}$ behave
+stably and there is no clear offset of $V_{CE}$ but when the current become higher (up to $I_B = 3 \mu A$), it starts to appear NDR effect and the collector current start to oscillate. The negative differential resistance (NDR) effect can also observe as an abnomaly peak  in the result of $I_C - V_{CE}$ sweep at cryogenic temperature and high base current.
 
 
  
