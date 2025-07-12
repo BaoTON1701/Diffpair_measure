@@ -50,7 +50,7 @@ In this measurement, the transistor's base was biased with a constant current so
 
 - **Base Current ($I_B$):** Swept from $5 \mu A$ to $20 \mu A$ in steps of $5 \mu A$.
 
-![IC-VCE Characteristics at Cryogenic Temperature](plot/IcVce_RT_new.png)
+![IC-VCE Characteristics at Cryogenic Temperature](plot/IcVce_LNA_new.png)
 
 ### 3.3. Comparison
 
