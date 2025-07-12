@@ -32,7 +32,7 @@ The following plots show the collector current ($I_C$), base current ($I_B$), an
 
 The comparison plot below overlays the Gummel plots at both temperatures.
 
-> **Note:** The new test board setup introduces noise in the low-voltage range for the room temperature measurement. Data from the previous test board, which shows a clearer characteristic over a longer range, is intended to be added here for a more complete comparison.
+> **Note:** The new test board setup introduces oscillation in the low-voltage range for the room temperature measurement. Data from the previous test board, which shows a clearer characteristic over a longer range, is intended to be added here for a more complete comparison.
 
 ![Comparison of Gummel Plots at Cryogenic and Room Temperatures](plot/gummel_CT_RT.png)
 
